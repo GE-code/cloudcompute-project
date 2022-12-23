@@ -1,7 +1,14 @@
-import { Menu } from "semantic-ui-react";
-
+import { Menu, Search} from "semantic-ui-react";
+import { Link } from "react-router-dom";
+import './style.css';
 function Header() {
-    return <Menu />;
+    return (
+        <Menu>
+            <Menu.Item className="head">Amigos</Menu.Item>
+            <Menu.Item position = "right" className="head" as={Link} to="/signin"
+            >Sign in / Sign up</Menu.Item>
+        </Menu>
+    );
 }
 
 export default Header;

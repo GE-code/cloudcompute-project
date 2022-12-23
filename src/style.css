@@ -1,0 +1,20 @@
+.Background{
+    background:linear-gradient(135deg, rgb(125, 60, 216), #e42a94);
+    height:100vh;
+}
+
+.Background welcome{
+    font-size:100px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top: 40%;
+
+}
+
+
+.head{
+    font-size:25px;
+    color:white;
+}
