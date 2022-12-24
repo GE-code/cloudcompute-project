@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from './Header';
-import Signin from './pages/Signin';
+import Signup from './pages/Signup';
 
 function App () {
     return (
@@ -13,7 +13,7 @@ function App () {
                             Welcome!
                         </welcome>
                     </Route>
-                    <Route path="/signin" exact><Signin></Signin></Route>
+                    <Route path="/signup" exact><Signup></Signup></Route>
                 </Switch>
             </BrowserRouter>
         </div>
